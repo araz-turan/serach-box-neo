@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: #E1EFFD;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.input-search {
+    box-shadow: -0.25rem -0.25rem 1rem #fff, 0.25rem 0.25rem 0.75rem #b8b8b8;
+    background-color: #E1EFFD;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 0.25rem;
+}
+input {
+    border: none;
+    outline: none;
+    height: 1.5rem;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: -0.5rem -0.5rem 1rem #fff inset, 0.25rem 0.25rem 1rem #b8b8b8 inset;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    background-color: #E1EFFD;
+    width: 100%;
+    font-style: italic;
+}
+i {
+    padding: 1rem;
+    background-color: #80d4dc;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 1.15rem;
+    position: absolute;
+    right: 0.5rem;
+    box-shadow: -0.15rem -0.15rem 0.5rem #b8b8b8, 0.15rem 0.15rem 0.5rem #b8b8b8;
+}
